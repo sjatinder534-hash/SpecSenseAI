@@ -47,6 +47,28 @@ Deletes the .venv folder and everything inside it, including all installed packa
 ```powershell
 Remove-Item -Recurse -Force .venv
 ```
+### Initial setup - Admin
+| Step | Command                                                               | One-line explanation                                     |
+| ---- | --------------------------------------------------------------------- | -------------------------------------------------------- |
+| 1    | `git branch -M main`                                                  | Rename the local default branch to `main`.               |
+| 2    | `git add .`                                                           | Stage all project files for the first commit.            |
+| 3    | `git commit -m "Initial commit"`                                      | Create the first local commit.                           |
+| 4    | `git remote add origin https://github.com/<USERNAME>/SpecSenseAI.git` | Connect the local repository to GitHub.                  |
+| 5    | `git push -u origin main`                                             | Push `main` to GitHub and establish the upstream branch. |
+
+### Developer
+| Step | Command                                     | One-line explanation                                |
+| ---- | ------------------------------------------- | --------------------------------------------------- |
+| 1    | `git checkout main`                         | Switch to the latest `main` branch.                 |
+| 2    | `git pull origin main`                      | Download the latest approved changes from GitHub.   |
+| 3    | `git checkout -b feature/<feature-name>`    | Create and switch to a new feature branch.          |
+| 4    | `git status`                                | Check which files have changed.                     |
+| 5    | `git add .`                                 | Stage the changes for commit.                       |
+| 6    | `git commit -m "Add <feature>"`             | Save the changes as a local commit.                 |
+| 7    | `git push -u origin feature/<feature-name>` | Push the feature branch to GitHub.                  |
+| 8    | **Create Pull Request**                     | Create a PR from `feature/<feature-name>` → `main`. |
+| 9    | **You review & approve**                    | Review the code and approve the PR.                 |
+| 10   | **Merge Pull Request**                      | Merge the approved changes into `main`.             |
 
 ### Project Structure
 SpecSenseAI/
