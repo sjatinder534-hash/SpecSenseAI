@@ -1,0 +1,17 @@
+product_id,attribute_name,attribute_value
+P1001,color,Black
+P1001,storage,256GB
+P1001,ram,8GB
+P1001,battery,3561mAh
+P1001,display_resolution,2556x1179
+P1002,color,Blue
+P1002,storage,256GB
+P1002,ram,12GB
+P1002,battery,4000mAh
+P1003,color,Black
+P1003,size,10
+P1003,material,Leather
+P1003,sole,Rubber
+P4001,capacity,500L
+P4001,energy_rating,5 Star
+P4001,door_type,French Door

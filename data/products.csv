@@ -1,0 +1,6 @@
+product_id,name,category,subcategory,brand,description,price,currency
+P1001,iPhone 16,Electronics,Smartphones,Apple,Apple smartphone,799,USD
+P1002,Galaxy S25,Electronics,Smartphones,Samsung,Android smartphone,899,USD
+P2001,Nike Air Max,Clothing,Shoes,Nike,Running shoes,149,USD
+P3001,Dell XPS 15,Electronics,Laptops,Dell,Professional laptop,1299,USD
+P4001,LG Refrigerator,Appliances,Refrigerators,LG,French door refrigerator,1599,USD
