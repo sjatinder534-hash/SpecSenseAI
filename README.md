@@ -71,18 +71,21 @@ Remove-Item -Recurse -Force .venv
 | 10   | **Merge Pull Request**                      | Merge the approved changes into `main`.             |
 
 ### Project Structure
-SpecSenseAI/
-- experiments/
+SpecSenseAI
+- experiments
     - workflow.ipynb
-- src/
-    - specsense/
+- src
+    - specsense
         - __init__.py
         - utils.py
-        - llm/
+        - llm
             - __init__.py
-    - images/
-- tests/
-- logs/
+    - images
+- tests
+- data
+    - products.csv
+    - product_attributes.csv
+- logs
 - .env
 - pyproject.toml
 - main.py
